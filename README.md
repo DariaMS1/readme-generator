@@ -14,7 +14,7 @@ Clone the repo and ensure you have the dependencies locally downloaded. Once in 
 
 After completing the prompting stage, the README.md will be generated inside the 'results' folder.
 
-![video of application](assets/images/screenshot.png)
+![video of application](./images/README-Gen_%20Mar%2019,%202024%206_28%20PM.gif)
 
 ## Credits
 
