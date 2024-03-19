@@ -2,22 +2,19 @@
 
 ## Description
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The motivation of the project was to create a README generator for coders to easily generate their project's information. It fastens the writing of a README.
+I built the project to develop my understanding of Node as well as modules and dependencies; dipping the toes into backend programming. 
+I learned more about the usage of 'fs' and package installing, whilst also becoming more comfortable using the terminal. Developed understanding of modules and how to integrate them in code to create interactive command-line applications.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone the repo and ensure you have the dependencies locally downloaded. Once in the repo (locally), run 'npm install' in the terminal.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+After completing the prompting stage, the README.md will be generated inside the 'results' folder.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![video of application](assets/images/screenshot.png)
 
 ## Credits
 
