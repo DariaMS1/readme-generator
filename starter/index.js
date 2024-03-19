@@ -35,13 +35,13 @@ const questions = [
         type: "input",
         name: "dependencies",
         message: "What command should be run to install dependencies?",
-        default: "(npm i)"
+        default: "npm i"
     },
     {
         type: "input",
         name: "tests",
         message: "What command should be run to run tests?",
-        default: "(npm test)"
+        default: "npm test"
     },
     {
         type: "input",
@@ -65,7 +65,7 @@ function init() {
     inquirer
     .prompt(questions).then((answers) => {
     console.log("Super high-level hacking in progress, stealing your data and compiling the file...]32']e'/]][]]#'HACEKD']]-0=90897e./>?")
-    writeToFile('./starter/README.md', generateMarkdown({ ...answers }));
+    writeToFile('../results/README.md', generateMarkdown({ ...answers }));
     })
     .catch((error) => {
         if (error.isTtyError) {
