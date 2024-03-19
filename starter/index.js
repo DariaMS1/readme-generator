@@ -57,21 +57,23 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
 }
 
 // function to initialize program
 function init() {
     inquirer
     .prompt(questions).then((answers) => {
-        // Use user feedback for... whatever!!
+    console.log("Super high-level hacking in progress, stealing your data and compiling the file...]32']e'/]][]]#'HACEKD']]-0=90897e./>?")
+    writeToFile('./starter/README.md', generateMarkdown({ ...answers }));
     })
     .catch((error) => {
         if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
+            console.error("Prompt couldn't be rendered in the current environment.");
         } else {
-        // Something else went wrong
+            console.error("An unexpected error occurred:", error);
         }
-    });
+    });   
 }
 
 // function call to initialize program

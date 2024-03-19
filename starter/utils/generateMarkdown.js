@@ -21,6 +21,8 @@ function generateMarkdown(data) {
 
   ## License
 
+  This project is licensed under the ${}
+
   ## Badges
 
   ## Features
